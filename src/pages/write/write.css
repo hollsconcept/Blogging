@@ -1,8 +1,16 @@
 .write{
     padding-top:50px;
 }
+
+.writeImage{
+    margin-left:150px;
+    width:70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
 .writeForm{
-    postion:relative;
+    position:relative;
 }
 .writeFormGroup{
     display:flex;
@@ -34,9 +42,16 @@
     font-size:20px;
 
 }
+
 .writebutton{
     position:absolute;
-    margin-top:20px;
-
+    top:20px;
+    right:50px;
+    color:white;
+    background-color:teal;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
 }
 

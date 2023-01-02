@@ -3,6 +3,7 @@ import "./write.css";
  function Write(){
     return (
         <div className = "write">
+        <img className = "writeImage" src= "https://www.analyticssteps.com/backend/media/thumbnail/9772004/2435977_1606727680_finance.jpg" alt = ""/>
             <form className = "writeForm">
                 <div className= "writeFormGroup">
                 <label htmlFor = "fileInput">
